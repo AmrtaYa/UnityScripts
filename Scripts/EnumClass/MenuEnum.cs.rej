@@ -1,0 +1,16 @@
+diff a/Project/Unity/Assets/Scripts/EnumClass/MenuEnum.cs b/Project/Unity/Assets/Scripts/EnumClass/MenuEnum.cs	(rejected hunks)
+@@ -31,6 +31,14 @@
+         No = 20002, //否
+     }
+ 
++    public enum MenuFrame
++    {
++        Fps30 = 30030,
++        Fps60 = 30060,
++        Fps90 = 30090,
++        Fps120 = 30120,
++        Unlimited = 30000 
++    }
+ 
+     //其余按键类型的，转换为对应的KeyCode数字 例如  KeyCode.Alpha0 = 48  ，键盘的0是48
+ }
